@@ -21,5 +21,3 @@ function fixMyIndex(input,output) {
 
 
 fixMyIndex('screen.css','modded.css');
-//TODO - add support for negative z-index (should be easy, just modify the regex)
-//TODO - add support for strings with no space between z-index: and the numeric value
