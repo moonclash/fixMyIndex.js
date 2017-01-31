@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const regex = /z-index:\s\d{1,500}/gi;
+const regex = /z-index:\s*(-)*\d{1,500}/gi;
 
 function splitAndConvert(val) {
   return +val.split(' ')[1];
